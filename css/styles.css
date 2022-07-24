@@ -33,20 +33,26 @@ text-decoration: none;
   clip-path: inset(50%);
   margin: -1px;
 }
-/* Стили header */
-/* .header {
-} */
-.logo {
+/* Стили логотипа */
+.header-logo, .footer-logo{
 font-family: 'Raleway';
 font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
 letter-spacing: var(--standard-letter-spacing);
+}
+.header-logo {
 color: #000000;
 }
-.logo span {
+.footer-logo {
+   color: #FFFFFF;
+}
+.header-logo span, .footer-logo span {
    color: var(--action-color); 
 }
+/* Стили header */
+/* .header {
+} */
 /* .header-nav {
 } */
 .nav, .nav-link{
