@@ -226,10 +226,10 @@ body {
 }
 .project-card {
 	background: var(--main-background-color);
-	border: 1px solid #eeeeee;
 	flex-basis: calc((100% - 60px) / 3);
 }
 .project-description {
+	border: 1px solid #eeeeee;
 	text-align: left;
 	padding: 20px 24px;
 }
