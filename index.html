@@ -9,9 +9,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
     rel="stylesheet">
-  <link rel=“stylesheet” href=“https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css”
-    integrity=“sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==”
-    crossorigin=“anonymous” referrerpolicy=“no-referrer” />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css"
+    integrity="sha512-Y0MM+V6ymRKN2zStTqzQ227DWhhp4Mzdo6gnlRnuaNCbc+YN/ZH0sBCLTM4M0oSy9c9VKiCvd4Jk44aCLrNS5Q=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="./css/styles.css">
   <title>WebStudio</title>
 </head>
@@ -38,7 +38,7 @@
   <!-- Main -->
   <main class="index-main">
     <section class="index-main-section">
-      <div class="index-main-container container">
+      <div class="container">
         <h1 class="main-title">ефективні рішення для вашого бізнесу</h1>
         <button type="button" class="order-button">Замовити послугу</button>
       </div>
@@ -92,23 +92,31 @@
         <ul class="staff-list list">
           <li class="staff-item">
             <img src="images/staff/product_designer.jpg" alt="Ігор Дем'яненко" />
-            <h3 class="staff-name">Ігор Дем'яненко</h3>
-            <p class="staff-position">Product Designer</p>
+            <div class="staff-description">
+              <h3 class="staff-name">Ігор Дем'яненко</h3>
+              <p class="staff-position">Product Designer</p>
+            </div>
           </li>
           <li class="staff-item">
             <img src="images/staff/frontend.jpg" alt="Ольга Рєпіна" />
-            <h3 class="staff-name">Ольга Репина</h3>
-            <p class="staff-position">Frontend Developer</p>
+            <div class="staff-description">
+              <h3 class="staff-name">Ольга Репина</h3>
+              <p class="staff-position">Frontend Developer</p>
+            </div>
           </li>
           <li class="staff-item">
             <img src="images/staff/marketing.jpg" alt="Микола Тарасов" />
-            <h3 class="staff-name">Николай Тарасов</h3>
-            <p class="staff-position">Marketing</p>
+            <div class="staff-description">
+              <h3 class="staff-name">Николай Тарасов</h3>
+              <p class="staff-position">Marketing</p>
+            </div>
           </li>
           <li class="staff-item">
             <img src="images/staff/UIdesigner.jpg" alt="Михайло Єрмаков" />
-            <h3 class="staff-name">Михаил Ермаков</h3>
-            <p class="staff-position">UI Designer</p>
+            <div class="staff-description">
+              <h3 class="staff-name">Михаил Ермаков</h3>
+              <p class="staff-position">UI Designer</p>
+            </div>
           </li>
         </ul>
       </div>
@@ -116,15 +124,16 @@
   </main>
   <!-- Footer -->
   <footer class="footer">
-    <div class="footer-container container">
+    <div class="container">
       <a href="./index.html" class="footer-logo link"><span>Web</span>Studio</a>
       <address class="address">
         <ul class="footer-contact-list list">
-          <li><a
+          <li class="footer-contact-item"><a
               href="https://www.google.com/maps/place/%D0%B1%D1%83%D0%BB.+%D0%9B%D0%B5%D1%81%D0%B8+%D0%A3%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D0%BA%D0%B8,+26,+%D0%9A%D0%B8%D0%B5%D0%B2,+02000/@50.4265807,30.5361971,17z/data=!3m1!4b1!4m5!3m4!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383858 "
               class="contact-address link">г.Киев, пр-т Леси Украинки, 26</a></li>
-          <li><a href="mailto:info@example.com" class="footer-email">info@example.com</a></li>
-          <li><a href="tel:+380991111111" class="footer-tel">+38 099 111 11 11</a></li>
+          <li class="footer-contact-item"><a href="mailto:info@example.com" class="footer-email">info@example.com</a>
+          </li>
+          <li class="footer-contact-item"><a href="tel:+380991111111" class="footer-tel">+38 099 111 11 11</a></li>
         </ul>
       </address>
     </div>

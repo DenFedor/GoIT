@@ -83,7 +83,7 @@ body {
 	margin-right: 93px;
 }
 .footer-logo {
-	display: block;
+	display: inline-block;
 	color: #ffffff;
 	margin-bottom: 20px;
 }
@@ -110,6 +110,8 @@ body {
 .nav {
 	display: flex;
 	column-gap: 50px;
+	padding-top: 32px;
+	padding-bottom: 32px;
 }
 
 .nav-link {
@@ -128,6 +130,8 @@ body {
 	display: inherit;
 	margin-left: auto;
 	gap: 30px;
+	padding-top: 32px;
+	padding-bottom: 32px;
 }
 .header-email,
 .header-tel {
@@ -150,8 +154,6 @@ body {
 /*Стили Footer */
 .footer {
 	background: #2f303a;
-}
-.footer-container {
 	padding-top: 60px;
 	padding-bottom: 60px;
 }
@@ -165,9 +167,7 @@ body {
 	line-height: 1.71;
 	letter-spacing: var(--standard-letter-spacing);
 }
-.contact-address,
-.footer-email {
-	display: inherit;
+.footer-contact-item {
 	margin-bottom: 9px;
 }
 .contact-address {
@@ -211,6 +211,7 @@ body {
 	background: #f5f4fa;
 	border-radius: 4px;
 	border: 0;
+	padding: 6px 22px;
 }
 .sort-btn:hover,
 .sort-btn:focus {
@@ -256,7 +257,7 @@ body {
 	letter-spacing: var(--wide-letter-spacing);
 	color: var(--main-background-color);
 }
-.index-main-container {
+.index-main-section {
 	padding-top: 200px;
 	padding-bottom: 200px;
 	text-align: center;
@@ -304,6 +305,7 @@ body {
 	font-weight: 700;
 	line-height: 1.14;
 	text-transform: uppercase;
+	margin-bottom: 10px;
 }
 .feature-text {
 	line-height: 1.71;
@@ -335,7 +337,7 @@ body {
 	background: #e5e5e5;
 }
 .staff-container {
-	text-align: center;
+	/* text-align: center; */
 }
 .staff-item {
 	flex-basis: calc((100%-90px) / 4);
@@ -349,12 +351,16 @@ body {
 	line-height: 1.19;
 	letter-spacing: var(--standard-letter-spacing);
 }
+.staff-description {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+}
 .staff-name {
 	font-weight: 500;
-	margin-top: 30px;
+	/* margin-top: 30px; */
 	margin-bottom: 10px;
 }
 .staff-position {
 	color: var(--small-text-color);
-	padding-bottom: 30px;
 }
