@@ -314,7 +314,8 @@ body {
 .work-section {
 	padding-top: 0;
 }
-.work-container {
+.work-container,
+.staff-container {
 	text-align: center;
 }
 .work-title,
@@ -329,15 +330,13 @@ body {
 .staff-list {
 	display: flex;
 	column-gap: 30px;
+	align-items: center;
 }
 .work-item {
 	flex-basis: calc((100%-60px) / 3);
 }
 .staff-section {
 	background: #e5e5e5;
-}
-.staff-container {
-	/* text-align: center; */
 }
 .staff-item {
 	flex-basis: calc((100%-90px) / 4);
