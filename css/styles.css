@@ -79,7 +79,7 @@ body {
 	display: inherit;
 	color: #000000;
 	width: 145px;
-	padding: 24px 0 25px;
+	/* padding: 24px 0 25px; */
 	margin-right: 93px;
 }
 .footer-logo {
@@ -95,6 +95,8 @@ body {
 /* Стили header */
 .header {
 	border-bottom: 1px solid #ececec;
+	padding-top: 24px;
+	padding-bottom: 25px;
 }
 .header-container {
 	display: flex;
@@ -110,8 +112,8 @@ body {
 .nav {
 	display: flex;
 	column-gap: 50px;
-	padding-top: 32px;
-	padding-bottom: 32px;
+	/* padding-top: 32px;
+	padding-bottom: 32px; */
 }
 
 .nav-link {
@@ -130,8 +132,8 @@ body {
 	display: inherit;
 	margin-left: auto;
 	gap: 30px;
-	padding-top: 32px;
-	padding-bottom: 32px;
+	/* padding-top: 32px;
+	padding-bottom: 32px; */
 }
 .header-email,
 .header-tel {
