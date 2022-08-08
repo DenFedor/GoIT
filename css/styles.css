@@ -137,6 +137,7 @@ body {
 }
 .header-contact-icon {
 	margin-right: 10px;
+	fill: currentColor;
 }
 .header-email:hover .header-contact-icon,
 .header-email:focus .header-contact-icon {
@@ -216,7 +217,6 @@ body {
 }
 .footer-soc-container {
 	padding-top: 12px;
-	padding-bottom: 100px;
 }
 .footer-social-name {
 	font-weight: 700;
@@ -485,12 +485,6 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-}
-.clients-item {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-
 	border: 1px solid #afb1b8;
 	border-radius: 4px;
 	height: 92px;
@@ -501,7 +495,7 @@ body {
 .clients-item:hover .clients-icon {
 	fill: var(--icons-background-color-active);
 }
-.clients-item:hover {
+.clients-link:hover {
 	border-color: var(--icons-background-color-active);
 }
 .clients-link:focus .clients-icon {
